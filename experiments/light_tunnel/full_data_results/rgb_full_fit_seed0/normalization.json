@@ -1,0 +1,62 @@
+{
+  "seed": 0,
+  "mode": "rgb",
+  "epochs": 5,
+  "best_epoch": 5,
+  "train_rows": 10000,
+  "examples_per_epoch": 40000,
+  "all_training_pairs_seen_each_epoch": true,
+  "trace": [
+    {
+      "epoch": 1,
+      "training_mse": 0.09541272882968187,
+      "training_pairs": 40000,
+      "elapsed_seconds": 2.5916548339882866
+    },
+    {
+      "epoch": 2,
+      "training_mse": 0.01986107441931963,
+      "training_pairs": 40000,
+      "elapsed_seconds": 4.864287459000479
+    },
+    {
+      "epoch": 3,
+      "training_mse": 0.019095815739035606,
+      "training_pairs": 40000,
+      "elapsed_seconds": 7.141135749989189
+    },
+    {
+      "epoch": 4,
+      "training_mse": 0.018386718839406967,
+      "training_pairs": 40000,
+      "elapsed_seconds": 9.469601124990731
+    },
+    {
+      "epoch": 5,
+      "training_mse": 0.018091898533701897,
+      "training_pairs": 40000,
+      "elapsed_seconds": 11.79550508398097
+    }
+  ],
+  "normalization": {
+    "mean": [
+      142.6324005126953,
+      131.93699645996094,
+      128.44090270996094,
+      35700.75390625,
+      5215.4208984375,
+      66.69039916992188,
+      110.17440032958984
+    ],
+    "std": [
+      88.52862548828125,
+      127.42277526855469,
+      72.9369125366211,
+      16223.4033203125,
+      2315.644287109375,
+      26.232162475585938,
+      22.116273880004883
+    ]
+  },
+  "purpose": "Full-data weight visualization, not held-out evaluation"
+}

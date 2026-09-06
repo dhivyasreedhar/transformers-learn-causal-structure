@@ -1,0 +1,9 @@
+{
+  "dataset": "lt_walks_v1",
+  "experiment": "color_mix",
+  "source": "https://causalchamber.s3.eu-central-1.amazonaws.com/downloadables/lt_walks_v1.zip",
+  "zip_md5": "dcad019186661a56de7a2d1db97fc2f0",
+  "csv_sha256": "b9088d72f079ce320d6958025c7930d124b2d89919bfa4aa8c618c84cf50846f",
+  "license": "CC BY 4.0",
+  "raw_csv_modified": false
+}

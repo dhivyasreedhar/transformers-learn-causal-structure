@@ -1,0 +1,46 @@
+{"devices": ["cpu:0"], "split": {"train": {"start": 0, "end_inclusive": 5899, "n": 5900}, "validation": {"start": 6100, "end_inclusive": 7899, "n": 1800}, "test": {"start": 8100, "end_inclusive": 9999, "n": 1900}}}
+LINEAR rgb {"ir_1": {"r2": 0.9709627628326416, "standardized_mse": 0.027386780828237534, "alpha": 0.0}, "ir_2": {"r2": 0.9685346484184265, "standardized_mse": 0.0281123798340559, "alpha": 0.0}, "ir_3": {"r2": 0.9201713800430298, "standardized_mse": 0.06892907619476318, "alpha": 0.0}, "current": {"r2": 0.9520048499107361, "standardized_mse": 0.04497716203331947, "alpha": 10.0}}
+{"mode": "rgb", "seed": 0, "step": 0, "validation_mse": 2.456979274749756, "elapsed_seconds": 0.8323113330407068}
+{"mode": "rgb", "seed": 0, "step": 250, "validation_mse": 0.06670358777046204, "elapsed_seconds": 2.316890707996208}
+{"mode": "rgb", "seed": 0, "step": 500, "validation_mse": 0.024098504334688187, "elapsed_seconds": 3.6213472500094213}
+{"mode": "rgb", "seed": 0, "step": 750, "validation_mse": 0.018119163811206818, "elapsed_seconds": 4.7001257500378415}
+{"mode": "rgb", "seed": 0, "step": 1000, "validation_mse": 0.01624886319041252, "elapsed_seconds": 5.4894767079968005}
+{"mode": "rgb", "seed": 0, "step": 1250, "validation_mse": 0.01638520136475563, "elapsed_seconds": 6.486397958011366}
+{"mode": "rgb", "seed": 0, "step": 1500, "validation_mse": 0.016208380460739136, "elapsed_seconds": 7.267296500038356}
+{"mode": "rgb", "seed": 1, "step": 0, "validation_mse": 2.456979274749756, "elapsed_seconds": 0.011876458011101931}
+{"mode": "rgb", "seed": 1, "step": 250, "validation_mse": 0.05585617572069168, "elapsed_seconds": 1.4183803329942748}
+{"mode": "rgb", "seed": 1, "step": 500, "validation_mse": 0.020192131400108337, "elapsed_seconds": 2.2398467080201954}
+{"mode": "rgb", "seed": 1, "step": 750, "validation_mse": 0.01837567612528801, "elapsed_seconds": 3.7632652500178665}
+{"mode": "rgb", "seed": 1, "step": 1000, "validation_mse": 0.016774524003267288, "elapsed_seconds": 5.859185791981872}
+{"mode": "rgb", "seed": 1, "step": 1250, "validation_mse": 0.015706166625022888, "elapsed_seconds": 7.8809987920103595}
+{"mode": "rgb", "seed": 1, "step": 1500, "validation_mse": 0.015968669205904007, "elapsed_seconds": 9.39611812500516}
+{"mode": "rgb", "seed": 2, "step": 0, "validation_mse": 2.456979274749756, "elapsed_seconds": 0.01612683298299089}
+{"mode": "rgb", "seed": 2, "step": 250, "validation_mse": 0.06140166148543358, "elapsed_seconds": 1.4733020829735324}
+{"mode": "rgb", "seed": 2, "step": 500, "validation_mse": 0.02288069576025009, "elapsed_seconds": 2.8134421249851584}
+{"mode": "rgb", "seed": 2, "step": 750, "validation_mse": 0.01925300806760788, "elapsed_seconds": 4.005921375006437}
+{"mode": "rgb", "seed": 2, "step": 1000, "validation_mse": 0.01588279940187931, "elapsed_seconds": 5.095150250010192}
+{"mode": "rgb", "seed": 2, "step": 1250, "validation_mse": 0.01606145314872265, "elapsed_seconds": 5.936534958018456}
+{"mode": "rgb", "seed": 2, "step": 1500, "validation_mse": 0.01634421944618225, "elapsed_seconds": 6.670380124996882}
+LINEAR all {"red": {"r2": 0.8598189949989319, "standardized_mse": 0.04024257883429527, "alpha": 10.0}, "green": {"r2": 0.9643210172653198, "standardized_mse": 0.03561747819185257, "alpha": 0.0}, "blue": {"r2": 0.8755094408988953, "standardized_mse": 0.12367894500494003, "alpha": 0.0}, "ir_1": {"r2": 0.9892720580101013, "standardized_mse": 0.01011817529797554, "alpha": 1.0}, "ir_2": {"r2": 0.9885790348052979, "standardized_mse": 0.010203935205936432, "alpha": 0.0}, "ir_3": {"r2": 0.9538915753364563, "standardized_mse": 0.03981291875243187, "alpha": 0.0}, "current": {"r2": 0.9517888426780701, "standardized_mse": 0.04517955332994461, "alpha": 1.0}}
+{"mode": "all", "seed": 0, "step": 0, "validation_mse": 2.0142242908477783, "elapsed_seconds": 0.016719499952159822}
+{"mode": "all", "seed": 0, "step": 250, "validation_mse": 0.24377547204494476, "elapsed_seconds": 1.0554754159529693}
+{"mode": "all", "seed": 0, "step": 500, "validation_mse": 0.07973126322031021, "elapsed_seconds": 1.8164369579753838}
+{"mode": "all", "seed": 0, "step": 750, "validation_mse": 0.07375694811344147, "elapsed_seconds": 2.57934249995742}
+{"mode": "all", "seed": 0, "step": 1000, "validation_mse": 0.044520556926727295, "elapsed_seconds": 3.3235548329539597}
+{"mode": "all", "seed": 0, "step": 1250, "validation_mse": 0.045798949897289276, "elapsed_seconds": 4.068150207982399}
+{"mode": "all", "seed": 0, "step": 1500, "validation_mse": 0.04316166415810585, "elapsed_seconds": 4.830743582977448}
+{"mode": "all", "seed": 1, "step": 0, "validation_mse": 2.0142242908477783, "elapsed_seconds": 0.01590800000121817}
+{"mode": "all", "seed": 1, "step": 250, "validation_mse": 0.2701437175273895, "elapsed_seconds": 1.0692104999907315}
+{"mode": "all", "seed": 1, "step": 500, "validation_mse": 0.08465748280286789, "elapsed_seconds": 1.8108937079668976}
+{"mode": "all", "seed": 1, "step": 750, "validation_mse": 0.06408440321683884, "elapsed_seconds": 2.5710423329728656}
+{"mode": "all", "seed": 1, "step": 1000, "validation_mse": 0.05860814452171326, "elapsed_seconds": 3.3131542909541167}
+{"mode": "all", "seed": 1, "step": 1250, "validation_mse": 0.05661558732390404, "elapsed_seconds": 4.097183457983192}
+{"mode": "all", "seed": 1, "step": 1500, "validation_mse": 0.05559416487812996, "elapsed_seconds": 4.922247082984541}
+{"mode": "all", "seed": 2, "step": 0, "validation_mse": 2.0142242908477783, "elapsed_seconds": 0.016049500030931085}
+{"mode": "all", "seed": 2, "step": 250, "validation_mse": 0.2775309681892395, "elapsed_seconds": 1.0508959160069935}
+{"mode": "all", "seed": 2, "step": 500, "validation_mse": 0.061633992940187454, "elapsed_seconds": 1.7879542909795418}
+{"mode": "all", "seed": 2, "step": 750, "validation_mse": 0.03798438236117363, "elapsed_seconds": 2.5353414160199463}
+{"mode": "all", "seed": 2, "step": 1000, "validation_mse": 0.03225291520357132, "elapsed_seconds": 3.2730060829780996}
+{"mode": "all", "seed": 2, "step": 1250, "validation_mse": 0.03149064630270004, "elapsed_seconds": 4.047173833008856}
+{"mode": "all", "seed": 2, "step": 1500, "validation_mse": 0.031126173213124275, "elapsed_seconds": 4.803894083015621}
+COMPLETE /Users/dhivyasreedhar/Desktop/icl/transformers-learn-causal-structure/experiments/light_tunnel/results/summary.json

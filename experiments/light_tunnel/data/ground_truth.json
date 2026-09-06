@@ -1,0 +1,63 @@
+{
+  "source": "https://github.com/juangamella/causal-chamber-package/blob/main/causalchamber/ground_truth/main.py",
+  "configuration": "lt/standard",
+  "columns": [
+    "red",
+    "green",
+    "blue",
+    "ir_1",
+    "ir_2",
+    "ir_3",
+    "current"
+  ],
+  "edges": [
+    [
+      "red",
+      "ir_1"
+    ],
+    [
+      "green",
+      "ir_1"
+    ],
+    [
+      "blue",
+      "ir_1"
+    ],
+    [
+      "red",
+      "ir_2"
+    ],
+    [
+      "green",
+      "ir_2"
+    ],
+    [
+      "blue",
+      "ir_2"
+    ],
+    [
+      "red",
+      "ir_3"
+    ],
+    [
+      "green",
+      "ir_3"
+    ],
+    [
+      "blue",
+      "ir_3"
+    ],
+    [
+      "red",
+      "current"
+    ],
+    [
+      "green",
+      "current"
+    ],
+    [
+      "blue",
+      "current"
+    ]
+  ]
+}

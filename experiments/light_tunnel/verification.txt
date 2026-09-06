@@ -1,0 +1,2 @@
+PASS: saved checkpoint reproduces predictions; diagnostic reproduces from training split; vendor identical; authoritative ground-truth edges match; all six real-data runs complete.
+PASS: target-value hiding, RGB-only input restriction, original attention reuse, causal masking, finite gradients, and binary-variable binning.

@@ -1,0 +1,46 @@
+{
+  "seed": 0,
+  "mode": "all",
+  "epochs": 5,
+  "best_epoch": 4,
+  "train_rows": 5800,
+  "examples_per_epoch": 40600,
+  "all_training_pairs_seen_each_epoch": true,
+  "trace": [
+    {
+      "epoch": 1,
+      "training_mse": 0.20074502580513165,
+      "training_pairs": 40600,
+      "elapsed_seconds": 2.452488708018791,
+      "validation_mse": 0.14918789524888307
+    },
+    {
+      "epoch": 2,
+      "training_mse": 0.02409201316154144,
+      "training_pairs": 40600,
+      "elapsed_seconds": 4.893128458003048,
+      "validation_mse": 0.11836218353734325
+    },
+    {
+      "epoch": 3,
+      "training_mse": 0.01954849974112952,
+      "training_pairs": 40600,
+      "elapsed_seconds": 7.333274665987119,
+      "validation_mse": 0.13352165779152128
+    },
+    {
+      "epoch": 4,
+      "training_mse": 0.017495028654802736,
+      "training_pairs": 40600,
+      "elapsed_seconds": 9.801491582999006,
+      "validation_mse": 0.11740225147282549
+    },
+    {
+      "epoch": 5,
+      "training_mse": 0.01663150302039122,
+      "training_pairs": 40600,
+      "elapsed_seconds": 12.30433825001819,
+      "validation_mse": 0.12334907187409275
+    }
+  ]
+}
