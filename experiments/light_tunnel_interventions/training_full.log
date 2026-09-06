@@ -1,0 +1,9 @@
+/Users/dhivyasreedhar/Desktop/icl/transformers-learn-causal-structure/experiments/light_tunnel_interventions/run_interventions.py:58: RuntimeWarning: overflow encountered in cast
+  if loss<best:best,bestm=loss,model
+/Users/dhivyasreedhar/Desktop/icl/transformers-learn-causal-structure/experiments/light_tunnel_interventions/run_interventions.py:58: RuntimeWarning: overflow encountered in cast
+  if loss<best:best,bestm=loss,model
+/Users/dhivyasreedhar/Desktop/icl/transformers-learn-causal-structure/experiments/light_tunnel_interventions/run_interventions.py:58: RuntimeWarning: overflow encountered in cast
+  if loss<best:best,bestm=loss,model
+/Users/dhivyasreedhar/Desktop/icl/transformers-learn-causal-structure/experiments/light_tunnel_interventions/run_interventions.py:58: RuntimeWarning: overflow encountered in cast
+  if loss<best:best,bestm=loss,model
+{"corr_I3_cos2_theta_difference": 0.16173682973075548, "corr_I3_theta1": -0.037369109247943455, "corr_I3_theta2": 0.05621054477314214}

@@ -1,0 +1,269 @@
+{
+  "dataset": "lt_interventions_standard_v1",
+  "configuration": "light tunnel / standard",
+  "columns": [
+    "red",
+    "green",
+    "blue",
+    "pol_1",
+    "pol_2",
+    "ir_1",
+    "ir_2",
+    "ir_3"
+  ],
+  "labels": [
+    "R",
+    "G",
+    "B",
+    "$\\theta_1$",
+    "$\\theta_2$",
+    "$\\tilde I_1$",
+    "$\\tilde I_2$",
+    "$\\tilde I_3$"
+  ],
+  "regimes": {
+    "uniform_reference": 10000,
+    "uniform_pol_1_strong": 1000,
+    "uniform_pol_2_strong": 1000
+  },
+  "normalization": {
+    "mean": [
+      42.52180099487305,
+      42.75120162963867,
+      42.61650085449219,
+      4.76588249206543,
+      4.886280059814453,
+      10092.4931640625,
+      1498.81494140625,
+      434.8131103515625
+    ],
+    "std": [
+      24.893787384033203,
+      24.827272415161133,
+      24.91739845275879,
+      11.231209754943848,
+      11.153515815734863,
+      4593.4755859375,
+      677.458984375,
+      201.2830352783203
+    ]
+  },
+  "data_sha256": {
+    "uniform_reference": "dabfabf99e7919941a761335c813063b243f35e0302eb53cfdf69d7c9368719f",
+    "uniform_pol_1_strong": "a676a2b6839d847daf6aa9d108ab358fd9f8320e4f38b92d5cbb32f3f2ff02a4",
+    "uniform_pol_2_strong": "01e92f4bc9e834dbeaa95119c94aefeaa5aafe9a685acebd746e9f1828444d8b"
+  },
+  "zip_md5": "476664d024f88e8b7640998bb5e9ee33",
+  "ground_truth": {
+    "critical_edges": [
+      [
+        "pol_1",
+        "ir_3"
+      ],
+      [
+        "pol_2",
+        "ir_3"
+      ]
+    ]
+  },
+  "runs": [
+    {
+      "setting": "observational_only",
+      "seed": 1,
+      "regime": "observational",
+      "validation_mse": 0.3504422903060913,
+      "metrics": {
+        "$\\tilde I_1$": 0.6679297538734439,
+        "$\\tilde I_2$": 0.6517483199209657,
+        "$\\tilde I_3$": 0.6239957665808693
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9169279932975769,
+        "$\\tilde I_2$": 0.915458619594574,
+        "$\\tilde I_3$": 0.8697131276130676
+      }
+    },
+    {
+      "setting": "observational_only",
+      "seed": 1,
+      "regime": "do_theta1",
+      "validation_mse": 0.3504422903060913,
+      "metrics": {
+        "$\\tilde I_1$": 0.5968261095730779,
+        "$\\tilde I_2$": 0.5585190507564779,
+        "$\\tilde I_3$": -84.69490728443905
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9131743907928467,
+        "$\\tilde I_2$": 0.9261420369148254,
+        "$\\tilde I_3$": -58.12263107299805
+      }
+    },
+    {
+      "setting": "observational_only",
+      "seed": 1,
+      "regime": "do_theta2",
+      "validation_mse": 0.3504422903060913,
+      "metrics": {
+        "$\\tilde I_1$": 0.620356785091746,
+        "$\\tilde I_2$": 0.6124033239137259,
+        "$\\tilde I_3$": -42.42302815451558
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9397193193435669,
+        "$\\tilde I_2$": 0.9310129284858704,
+        "$\\tilde I_3$": -60.96870803833008
+      }
+    },
+    {
+      "setting": "observational_only",
+      "seed": 2,
+      "regime": "observational",
+      "validation_mse": 0.3711947500705719,
+      "metrics": {
+        "$\\tilde I_1$": 0.6325296946075076,
+        "$\\tilde I_2$": 0.6526750075591107,
+        "$\\tilde I_3$": 0.5972564574786736
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9169279932975769,
+        "$\\tilde I_2$": 0.915458619594574,
+        "$\\tilde I_3$": 0.8697131276130676
+      }
+    },
+    {
+      "setting": "observational_only",
+      "seed": 2,
+      "regime": "do_theta1",
+      "validation_mse": 0.3711947500705719,
+      "metrics": {
+        "$\\tilde I_1$": 0.6087410951043928,
+        "$\\tilde I_2$": 0.5854004913690793,
+        "$\\tilde I_3$": -84.70328619245116
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9131743907928467,
+        "$\\tilde I_2$": 0.9261420369148254,
+        "$\\tilde I_3$": -58.12263107299805
+      }
+    },
+    {
+      "setting": "observational_only",
+      "seed": 2,
+      "regime": "do_theta2",
+      "validation_mse": 0.3711947500705719,
+      "metrics": {
+        "$\\tilde I_1$": 0.5509067444994293,
+        "$\\tilde I_2$": 0.6109696014572782,
+        "$\\tilde I_3$": -38.90185997242197
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9397193193435669,
+        "$\\tilde I_2$": 0.9310129284858704,
+        "$\\tilde I_3$": -60.96870803833008
+      }
+    },
+    {
+      "setting": "observational_plus_interventions",
+      "seed": 1,
+      "regime": "observational",
+      "validation_mse": 0.5216777920722961,
+      "metrics": {
+        "$\\tilde I_1$": 0.492986154017398,
+        "$\\tilde I_2$": 0.4958398534199483,
+        "$\\tilde I_3$": 0.44553812478975985
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9168899655342102,
+        "$\\tilde I_2$": 0.915452241897583,
+        "$\\tilde I_3$": 0.7776895761489868
+      }
+    },
+    {
+      "setting": "observational_plus_interventions",
+      "seed": 1,
+      "regime": "do_theta1",
+      "validation_mse": 0.5216777920722961,
+      "metrics": {
+        "$\\tilde I_1$": 0.5921941033974641,
+        "$\\tilde I_2$": 0.5563617105361063,
+        "$\\tilde I_3$": -4.610613288475172
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9199462532997131,
+        "$\\tilde I_2$": 0.9261981248855591,
+        "$\\tilde I_3$": -10.665984153747559
+      }
+    },
+    {
+      "setting": "observational_plus_interventions",
+      "seed": 1,
+      "regime": "do_theta2",
+      "validation_mse": 0.5216777920722961,
+      "metrics": {
+        "$\\tilde I_1$": 0.5736203470425205,
+        "$\\tilde I_2$": 0.588582359480504,
+        "$\\tilde I_3$": -2.3928158036962346
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9401221871376038,
+        "$\\tilde I_2$": 0.9300940036773682,
+        "$\\tilde I_3$": -7.309924125671387
+      }
+    },
+    {
+      "setting": "observational_plus_interventions",
+      "seed": 2,
+      "regime": "observational",
+      "validation_mse": 0.4970957338809967,
+      "metrics": {
+        "$\\tilde I_1$": 0.5160088543312777,
+        "$\\tilde I_2$": 0.5124018254440332,
+        "$\\tilde I_3$": 0.4703848692956246
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9168899655342102,
+        "$\\tilde I_2$": 0.915452241897583,
+        "$\\tilde I_3$": 0.7776895761489868
+      }
+    },
+    {
+      "setting": "observational_plus_interventions",
+      "seed": 2,
+      "regime": "do_theta1",
+      "validation_mse": 0.4970957338809967,
+      "metrics": {
+        "$\\tilde I_1$": 0.5775560533687658,
+        "$\\tilde I_2$": 0.6194351989133471,
+        "$\\tilde I_3$": -4.6621903201027
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9199462532997131,
+        "$\\tilde I_2$": 0.9261981248855591,
+        "$\\tilde I_3$": -10.665984153747559
+      }
+    },
+    {
+      "setting": "observational_plus_interventions",
+      "seed": 2,
+      "regime": "do_theta2",
+      "validation_mse": 0.4970957338809967,
+      "metrics": {
+        "$\\tilde I_1$": 0.5141896084088605,
+        "$\\tilde I_2$": 0.6022390479158016,
+        "$\\tilde I_3$": -6.768718212710036
+      },
+      "linear_metrics": {
+        "$\\tilde I_1$": 0.9401221871376038,
+        "$\\tilde I_2$": 0.9300940036773682,
+        "$\\tilde I_3$": -7.309924125671387
+      }
+    }
+  ],
+  "method": "continuous CatFormer masked regression; no intervention labels or camera variables",
+  "malus_diagnostic": {
+    "corr_I3_cos2_theta_difference": 0.16173682973075548,
+    "corr_I3_theta1": -0.037369109247943455,
+    "corr_I3_theta2": 0.05621054477314214
+  }
+}
